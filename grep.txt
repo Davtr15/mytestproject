@@ -1,0 +1,73 @@
+git grep ".*" -- "*.txt"
+
+ 
+GitStatus.txt:check status
+GitStatus.txt:test
+myNewFile.txt:some fixes 
+myNewFile.txt:asdasdasd
+GitStatus.txt:check status
+GitStatus.txt:test
+
+
+grep.txt:git grep ".*" -- "*.txt"
+
+grep.txt:
+grep.txt: 
+grep.txt:GitStatus.txt:check status
+grep.txt:GitStatus.txt:test
+grep.txt:myNewFile.txt:some fixes 
+grep.txt:myNewFile.txt:asdasdasd
+myNewFile.txt:some fixes 
+myNewFile.txt:asdasdasd
+porcelainv1.txt:## main...origin/main [ahead 1]
+porcelainv1.txt:?? porcelainv1.txt
+porcelainv2.txt:# branch.oid 38f4bba7a7c8f729908a5bc11cc4f6ff31f3ca6b
+porcelainv2.txt:# branch.head main
+porcelainv2.txt:# branch.upstream origin/main
+porcelainv2.txt:# branch.ab +1 -0
+porcelainv2.txt:? porcelainv1.txt
+porcelainv2.txt:? porcelainv2.txt
+git grep --untracked  ".*" -- "*.txt" 
+
+
+upd
+
+GitStatus.txt:check status
+GitStatus.txt:test
+grep.txt:git grep ".*" -- "*.txt"
+grep.txt:
+grep.txt: 
+grep.txt:GitStatus.txt:check status
+grep.txt:GitStatus.txt:test
+grep.txt:myNewFile.txt:some fixes 
+grep.txt:myNewFile.txt:asdasdasd
+grep.txt:GitStatus.txt:check status
+grep.txt:GitStatus.txt:test
+grep.txt:grep.txt:git grep ".*" -- "*.txt"
+grep.txt:grep.txt:
+grep.txt:grep.txt: 
+grep.txt:grep.txt:GitStatus.txt:check status
+grep.txt:grep.txt:GitStatus.txt:test
+grep.txt:grep.txt:myNewFile.txt:some fixes 
+grep.txt:grep.txt:myNewFile.txt:asdasdasd
+grep.txt:myNewFile.txt:some fixes 
+grep.txt:myNewFile.txt:asdasdasd
+grep.txt:porcelainv1.txt:## main...origin/main [ahead 1]
+grep.txt:porcelainv1.txt:?? porcelainv1.txt
+grep.txt:porcelainv2.txt:# branch.oid 38f4bba7a7c8f729908a5bc11cc4f6ff31f3ca6b
+grep.txt:porcelainv2.txt:# branch.head main
+grep.txt:porcelainv2.txt:# branch.upstream origin/main
+grep.txt:porcelainv2.txt:# branch.ab +1 -0
+grep.txt:porcelainv2.txt:? porcelainv1.txt
+grep.txt:porcelainv2.txt:? porcelainv2.txt
+grep.txt:git grep --untracked  ".*" -- "*.txt" 
+myNewFile.txt:some fixes 
+myNewFile.txt:asdasdasd
+porcelainv1.txt:## main...origin/main [ahead 1]
+porcelainv1.txt:?? porcelainv1.txt
+porcelainv2.txt:# branch.oid 38f4bba7a7c8f729908a5bc11cc4f6ff31f3ca6b
+porcelainv2.txt:# branch.head main
+porcelainv2.txt:# branch.upstream origin/main
+porcelainv2.txt:# branch.ab +1 -0
+porcelainv2.txt:? porcelainv1.txt
+porcelainv2.txt:? porcelainv2.txt

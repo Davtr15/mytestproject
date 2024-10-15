@@ -1,0 +1,6 @@
+# branch.oid 38f4bba7a7c8f729908a5bc11cc4f6ff31f3ca6b
+# branch.head main
+# branch.upstream origin/main
+# branch.ab +1 -0
+? porcelainv1.txt
+? porcelainv2.txt
