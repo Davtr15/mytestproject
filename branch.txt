@@ -1,0 +1,25 @@
+git branch develop 
+git status 
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   GitStatus.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	branch.txt
+	grep.txt
+	porcelainv1.txt
+	porcelainv2.txt
+	q
+
+no changes added to commit (use "git add" and/or "git commit -a")
+---------  
+git add .  
+---------  
+git add .  
+git commit --all -m "txts added" 
